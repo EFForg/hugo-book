@@ -105,6 +105,7 @@ ul.pagination {
     background: $body-background;
 
     @include fixed;
+    top: 100px;
   }
 
   a {
