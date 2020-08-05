@@ -103,8 +103,7 @@ ul.pagination {
     width: $menu-width;
     padding: $padding-16;
     background: $body-background;
-
-    @include fixed;
+    position: relative;
     top: 100px;
   }
 
@@ -340,6 +339,7 @@ aside nav,
     .book-menu nav {
       transform: translateX($menu-width);
       box-shadow: 0 0 $padding-8 rgba(0, 0, 0, 0.1);
+      position: relative;
     }
 
     .book-page {
