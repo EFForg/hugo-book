@@ -213,7 +213,6 @@ ul.pagination {
     width: $toc-width;
     padding: $padding-16;
 
-    @include fixed;
     margin-top: 100px;
     position: relative;
   }
